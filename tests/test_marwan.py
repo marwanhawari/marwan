@@ -1,8 +1,8 @@
-import marwan
+from marwan.main import main
 
 
 def test_main(capsys):
-    marwan.main(["-lpwg"])
+    main(["-lpwg"])
 
     out, err = capsys.readouterr()
     assert (
