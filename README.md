@@ -1,5 +1,6 @@
 <p>
-  <img width=60% height=auto src="https://github.com/marwanhawari/marwan/blob/main/docs/marwan_logo.png" alt="marwan logo"/>
+  <img width=60% height=auto src="https://github.com/marwanhawari/marwan/raw/main/docs/marwan_logo.png" alt="marwan logo"/>
+  
 </p>
 
 [![PyPI version](https://badge.fury.io/py/marwan.svg)](https://badge.fury.io/py/marwan)
