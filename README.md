@@ -9,7 +9,7 @@
 [![GitHub](https://img.shields.io/github/license/marwanhawari/marwan?color=blue)](LICENSE)
 
 # Description
-This library contains useful data structures and algorithms that are commonly used in coding interviews. The goal of this project is to provide modules that can actually be used to solve interviewing problems. This project is NOT a code dump of solutions to interviewing problems. The classes and functions were designed to be compatible with LeetCode.
+This tool allows me to conviently access some of my frequently used webpages from the command line.
 
 # Installation
 The `marwan` package can be installed directly using `pip`.
@@ -30,7 +30,7 @@ $ marwan -l
 Opening https://www.linkedin.com/in/marwanhawari/
 ```
 
-## Options
+### Options
 ```
 usage: marwan [-h] [-g [REPO]] [-l] [-p] [-w]
 
