@@ -26,10 +26,10 @@ $ marwan -g pyinterview
 Opening https://www.github.com/marwanhawari/pyinterview
 ```
 
-* Open my LinkedIn page:
+* Open my PyPI page:
 ```
-$ marwan -l
-Opening https://www.linkedin.com/in/marwanhawari/
+$ marwan -p
+Opening https://pypi.org/user/marwanhawari/
 ```
 
 ### Options
