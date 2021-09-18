@@ -9,7 +9,7 @@
 [![GitHub](https://img.shields.io/github/license/marwanhawari/marwan?color=blue)](LICENSE)
 
 # Description
-This tool allows me to conviently access some of my frequently used webpages from the command line.
+This tool allows me to conveniently access some of my frequently used webpages from the command line.
 
 # Installation
 The `marwan` package can be installed directly using `pip`.
@@ -20,11 +20,13 @@ pip install marwan
 # Usage
 `marwan` can be run from the command line and will automatically open your web browser.
 
+* Open one of my GitHub repositories:
 ```
 $ marwan -g pyinterview
 Opening https://www.github.com/marwanhawari/pyinterview
 ```
 
+* Open my LinkedIn page:
 ```
 $ marwan -l
 Opening https://www.linkedin.com/in/marwanhawari/
