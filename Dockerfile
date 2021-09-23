@@ -2,7 +2,7 @@
 FROM --platform=linux/amd64 python:3.9
 
 # Install linux packages
-RUN apt-get update && apt-get install -y --no-install-recommends  \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     nano \
     tree && \
     apt-get clean && \
@@ -30,3 +30,4 @@ USER 10001
 
 ENTRYPOINT ["marwan"]
 CMD ["--help"]
+
