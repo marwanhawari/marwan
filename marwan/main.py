@@ -57,9 +57,7 @@ def main(argv: Optional[Sequence] = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    open_websites(args)
-
-    return 0
+    return open_websites(args)
 
 
 if __name__ == "__main__":
