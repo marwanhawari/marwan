@@ -16,7 +16,7 @@ RUN groupadd --gid 10001 app && \
 WORKDIR /home/app
 
 # Create a python virtual environment within the docker container
-ENV VIRTUAL_ENV=/home/app/.venv
+ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
 # "Activate" the virtual environment by prepending the venv executable path to the PATH variable
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
